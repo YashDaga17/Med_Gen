@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+    <Text
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text="Thank You"
+        ohos:text_size="60fp"
+        ohos:text_color="#97C000DE"
+        ohos:background_element="#C87EFDC8"
+        ohos:text_font="Railway"
+        ohos:bubble_height="$ohos:float:id_alpha_content_fourth"
+        ohos:top_margin="300vp"
+        ohos:left_margin="15vp"
+        ohos:bottom_margin="15vp"
+        ohos:right_padding="15vp"
+        ohos:left_padding="15vp"
+        />
+
+</DirectionalLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:width="match_parent"
+    ohos:height="match_parent"
+    ohos:orientation="vertical">
+    <Button
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text_size="35fp"
+        ohos:text="Organ Donation "
+        ohos:background_element="#C830EC14"
+        ohos:text_color="#FFFFFEFC"
+        ohos:layout_alignment="horizontal_center"
+        ohos:left_margin="15vp"
+        ohos:top_margin="150vp"
+        ohos:bottom_margin="15vp"
+        ohos:right_padding="15vp"
+        ohos:left_padding="15vp"
+        />
+    <Button
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text_size="35fp"
+        ohos:text="Organ Claim"
+        ohos:background_element="#C830EC14"
+        ohos:text_color="#FFFFFEFC"
+        ohos:layout_alignment="horizontal_center"
+        ohos:left_margin="15vp"
+        ohos:bottom_margin="15vp"
+        ohos:right_padding="15vp"
+        ohos:left_padding="15vp"
+        />
+    <Button
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text_size="35fp"
+        ohos:text="Exit"
+        ohos:background_element="#C830EC14"
+        ohos:text_color="#FFFFFEFC"
+        ohos:layout_alignment="horizontal_center"
+        ohos:left_margin="15vp"
+        ohos:bottom_margin="15vp"
+        ohos:right_padding="15vp"
+        ohos:left_padding="15vp"
+        />
+</DirectionalLayout>

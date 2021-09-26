@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:Personal"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text="Personal Details"
+        ohos:text_size="42fp"
+        ohos:text_color="#FF4A60E9"
+        ohos:left_margin="15vp"
+        ohos:bottom_margin="15vp"
+        ohos:right_padding="15vp"
+        ohos:left_padding="15vp"
+        />
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="Name"
+        ohos:background_element="#C802025D"
+        ohos:text_color="#FFFFFCFC"
+        ohos:text_size="30fp"
+        ohos:left_margin="5vp"
+        ohos:right_padding="15vp"
+        ohos:left_padding="15vp"
+        />
+    <TextField
+        ohos:id="$+id:name_text_field"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:left_margin="5vp"
+        ohos:left_padding="15vp"
+        ohos:text="Enter your name "
+        ohos:bottom_margin="14vp"
+        ohos:text_size="25fp"
+        ohos:text_alignment="vertical_center"
+        ohos:background_element="#C87581F3"
+        ohos:text_color="#FFFFFCFC"
+        />
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="Email"
+        ohos:background_element="#C802025D"
+        ohos:text_color="#FFFFFCFC"
+        ohos:text_size="30fp"
+        ohos:left_margin="5vp"
+        ohos:right_padding="15vp"
+        ohos:left_padding="15vp"
+        />
+    <TextField
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:left_margin="5vp"
+        ohos:left_padding="15vp"
+        ohos:text="Enter your Email "
+        ohos:bottom_margin="18vp"
+        ohos:text_size="25fp"
+        ohos:text_alignment="vertical_center"
+        ohos:background_element="#C87581F3"
+        ohos:text_color="#FFFFFCFC"
+        />
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="Date of Birth "
+        ohos:background_element="#C802025D"
+        ohos:text_color="#FFFFFCFC"
+        ohos:text_size="30fp"
+        ohos:left_margin="5vp"
+        ohos:right_padding="15vp"
+        ohos:left_padding="15vp"
+        />
+    <DatePicker
+        ohos:id="$+id:date_pick"
+        ohos:height="match_content"
+        ohos:width="300vp"
+        ohos:bottom_margin="18vp"
+        ohos:background_element="#C89FDEFF">
+    </DatePicker>
+
+
+    <Text
+        ohos:id="$+id:Password"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="Password"
+        ohos:background_element="#C802025D"
+        ohos:text_color="#FFFFFCFC"
+        ohos:text_size="30fp"
+        ohos:left_margin="5vp"
+        ohos:right_padding="15vp"
+        ohos:left_padding="15vp"
+
+        />
+    <TextField
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:left_margin="5vp"
+        ohos:left_padding="15vp"
+        ohos:text="Enter Password "
+        ohos:bottom_margin="14vp"
+        ohos:text_size="25fp"
+        ohos:text_alignment="vertical_center"
+        ohos:background_element="#C87581F3"
+        ohos:text_color="#FFFFFCFC"
+        />
+    <Text
+        ohos:id="$+id:VerifyPassword"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="Verify Password"
+        ohos:background_element="#C802025D"
+        ohos:text_color="#FFFFFCFC"
+        ohos:text_size="30fp"
+        ohos:left_margin="5vp"
+        ohos:right_padding="15vp"
+        ohos:left_padding="15vp"
+    />
+    <TextField
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:left_margin="5vp"
+        ohos:left_padding="15vp"
+        ohos:text="Confirm Password "
+        ohos:bottom_margin="14vp"
+        ohos:text_size="25fp"
+        ohos:text_alignment="vertical_center"
+        ohos:background_element="#C87581F3"
+        ohos:text_color="#FFFFFCFC"
+        />
+    <Button
+        ohos:id="$+id:button"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text_size="27fp"
+        ohos:text="Next"
+        ohos:left_margin="15vp"
+        ohos:bottom_margin="15vp"
+        ohos:right_padding="8vp"
+        ohos:left_padding="8vp"
+        ohos:background_element="#C8100000"
+        ohos:text_color="#FFFFFEFC"
+        />
+
+</DirectionalLayout>
